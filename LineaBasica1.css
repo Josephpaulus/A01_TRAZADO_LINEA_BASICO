@@ -1,0 +1,27 @@
+canvas {
+    /* COLOR CANVAS */ 
+    background-color: white;
+
+    /* REMOVER BLURRINESS */
+    image-rendering: crisp-edges !important;
+
+    /* CENTRAR CANVAS */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* COLOR TEXTO */ 
+h2, #clic1, #clic2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* COLOR FONDO */ 
+body {
+    background-color: black;
+}
